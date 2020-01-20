@@ -1,0 +1,7 @@
+CREATE TABLE TB_CARGO (
+   id BIGINT(20) PRIMARY KEY AUTO_INCREMENT,
+   descricao VARCHAR(30) NOT NULL,
+   salario_base DECIMAL(10,2)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO TB_CARGO (descricao,salario_base) values ('ANALISTA', 2000.00);
